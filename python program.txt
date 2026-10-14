@@ -1,0 +1,88 @@
+1) n=int(input("enter a number:"))
+   if n>=99:
+      print("two digit number")
+   else:
+      print("not two digit number")
+
+2) n=int(input("enter a number:"))
+   if n%10==5:
+      print("last digit number")
+   else:
+      print("not a last digit number")
+
+3) ch=input("enter a character:")
+   if ch.isupper():
+      print("uppercase character")
+   elif ch.islower():
+      print("lowercase character")
+  else:
+     print("not a alphabet")
+
+4) ch=input("enter a character:")
+   if ch.isalpha():
+     print("alphabet")
+   elif ch.isdigit():
+     print("digit")
+   else:
+     print("special character")
+
+5) temp=float(input("enter a temperature:"))
+   if temp>37:
+     print("temperature is above")
+   elif temp<37:
+     print("temperature is below")
+   else:
+     print("temperature is above 37ºc")
+
+6) bill=int(input(enter shopping bill:"))
+   if bill>2000:
+     discount=bill*10/100
+     print("discount:",dicount)
+     print("final bill:",bill-discount)
+   else:
+     print("no discount")
+
+7) month=input("enter month number:")
+   if m==2:
+     print("feb")
+   elif  m=(4,6,7,11): 
+     print("30 days")
+   elif m>=1 and m<=12:
+     print("31 days") 
+   else:
+     print("invalid month number")
+
+8) n=int(input("enter a number:"))   
+   if n%10==4:
+       print("last digit is 4")
+   else:
+       print("not a last digit is 4")
+
+9) n=int(input("enter a two digit number:"))
+   last=n%10   
+   first=n//10
+   sum=first+last
+   print("sum of first and last digit:",sum)
+
+10) a=int(input("enter a first number:"))
+    b=int(input("enter a second number:"))
+    a=a+b
+    b=a-b
+    a=a-b
+    print("after swapping")
+    print("a=",a)
+    print("b=",b)
+
+11) n=int(input(enter a number:"))
+    if n>=10 and n<=50:
+       print("number lies within a range")
+    else:
+       print("number lies outside a range")
+
+12) char=input("enter a character:")
+    if char in "aeiou":
+        print("vowel")
+    else:
+        print("consonant")
+
+    
