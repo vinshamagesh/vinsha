@@ -1,0 +1,70 @@
+1) count=0
+   for i in range(1,51):
+      if i%5==o:
+        count=count+1
+   print(i)
+
+2) total=0
+   for i in range(1,21):
+      if i%2!=0:
+        total=total+1
+   print("sum of odd numbers:",total)
+
+3) for i in range(1,31)
+     if i%3==0 and 1%2!=0:
+   print(i)
+
+4) number=[10,-4,6,-4,2,-5]
+   positive=0
+   negative=0
+   for i in number:
+      if i>0:
+        positive=positive+1
+      elif i<0:
+        negative=negative+1
+   print("positive number:",positive)
+   print("negative number:",negative)
+
+5) n=int(input("enter a four digit number:"))
+   total=0
+   while n>o:  
+     digit=n%10==0
+     total=total+digit
+     n=n//10
+   print("sum of digits:",total)
+
+6) n=int(input("enter a number:"))
+   fact=1
+     for i in range(1,n+1):
+       fact=fact*i  
+   print("factorial:",fact)
+
+7) number=[10,8,24,20,6]
+   largest=number>0
+    for i in numbers:
+      if i>largest:
+        largest=i
+   print("largest number:",number)
+        
+       
+ 8) for i in range(1,11):
+      if (i*i)%2==0:
+        print(i)
+
+
+9)n=int(input("enter a number:"))
+  if n>1:
+    for i in range(2,n):
+      if n>i==0:
+        print("not prime")
+        break
+    else:
+      print("prime")
+  else:
+    print("not prime")
+        
+      
+     
+
+          
+   
