@@ -1,0 +1,53 @@
+1) n=int(input("enter a number:"))
+   temp=n
+   rev=0
+   while n>0:
+     digit n%10
+     rev=rev*10+digit
+     n=n//10
+   if temp==rev:
+      print("palindrome")
+   else:
+      print("not a palindrome") 
+
+2) n=int(input("enter a number:")
+   temp=n
+   power=(len(str(n)))
+   total=0
+   while temp>0:
+      digit=temp%10
+      total=total+digit**power
+      temp=temp//10
+   if total==n:
+      print("Armstrong number")
+   else:
+      print("not Armstrong number")
+     
+     
+3) n=int(input("enter a number:"))
+   s=0
+   for i in range(1,n):
+     if n%i==0:
+      s=s+i
+   if s==n and n>0:
+     print("perfect number")
+   else:
+     print("not a perfect number")
+
+4) n=int(input("enter a number:"))
+   s=n*n
+   if str(s).endswith(str(n)):
+    print("automorphic")
+   else:
+    print("not automorphic")
+
+5) n=int(input("enter a number:"))
+   sq=n*n
+   s=0
+   while sq>0:
+     s=s+sq%10
+     sq=sq//10
+   if s==n:
+     print("neon number")
+   else:
+     print("not neon number")
